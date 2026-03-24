@@ -1,87 +1,129 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Emma Johnson",
-      "email": "emma.johnson@email.com",
-      "age": 28,
-      "gender": "female",
-      "phone": "+1-555-0123",
-      "address": "123 Oak Street, New York, NY 10001",
-      "hobbies": ["reading", "yoga", "photography"],
-      "occupation": "Software Engineer",
-      "company": "Tech Solutions Inc.",
-      "bio": "Passionate about technology and outdoor adventures.",
-      "skills": ["JavaScript", "React", "Node.js"],
-      "joinDate": "2023-01-15",
-      "isPremium": true
-    },
-    {
-      "id": 2,
-      "name": "Michael Chen",
-      "email": "michael.chen@email.com",
-      "age": 32,
-      "gender": "male",
-      "phone": "+1-555-0124",
-      "address": "456 Pine Avenue, San Francisco, CA 94102",
-      "hobbies": ["gaming", "hiking", "cooking"],
-      "occupation": "Product Manager",
-      "company": "Innovation Labs",
-      "bio": "Tech enthusiast and outdoor adventurer.",
-      "skills": ["Agile", "Scrum", "Product Strategy"],
-      "joinDate": "2022-08-20",
-      "isPremium": false
-    },
-    {
-      "id": 3,
-      "name": "Sarah Williams",
-      "email": "sarah.williams@email.com",
-      "age": 26,
-      "gender": "female",
-      "phone": "+1-555-0125",
-      "address": "789 Elm Street, Austin, TX 73301",
-      "hobbies": ["painting", "yoga", "travel"],
-      "occupation": "UX Designer",
-      "company": "Creative Studios",
-      "bio": "Design thinker and creative problem solver.",
-      "skills": ["Figma", "Adobe XD", "User Research"],
-      "joinDate": "2023-03-10",
-      "isPremium": true
-    },
-    {
-      "id": 4,
-      "name": "David Martinez",
-      "email": "david.martinez@email.com",
-      "age": 35,
-      "gender": "male",
-      "phone": "+1-555-0126",
-      "address": "321 Oak Drive, Chicago, IL 60601",
-      "hobbies": ["basketball", "reading", "coding"],
-      "occupation": "Full Stack Developer",
-      "company": "Digital Solutions",
-      "bio": "Problem solver and lifelong learner.",
-      "skills": ["Python", "Django", "React", "PostgreSQL"],
-      "joinDate": "2021-11-15",
-      "isPremium": false
-    },
-    {
-      "id": 5,
-      "name": "Lisa Anderson",
-      "email": "lisa.anderson@email.com",
-      "age": 29,
-      "gender": "female",
-      "phone": "+1-555-0127",
-      "address": "654 Maple Lane, Boston, MA 02101",
-      "hobbies": ["photography", "hiking", "baking"],
-      "occupation": "Marketing Manager",
-      "company": "Growth Agency",
-      "bio": "Creative marketer with data-driven approach.",
-      "skills": ["SEO", "Content Marketing", "Analytics"],
-      "joinDate": "2022-06-01",
-      "isPremium": true
-    }
-  ],
-  "total": 5,
-  "page": 1,
-  "totalPages": 1
+    "users": [
+        {
+            "id": 1,
+            "name": "Ahmad Abdallah",
+            "email": "ahmad@gmail.com",
+            "age": 18,
+            "gender": "male",
+            "phone": "+1-555-0123",
+            "address": "123 Oak Street, New York, NY 10001",
+            "hobbies": [
+                "programming",
+                "gaming",
+                "reading"
+            ],
+            "occupation": "Software Engineer",
+            "company": "Tech Solutions Inc.",
+            "bio": "Passionate about technology and outdoor adventures.",
+            "skills": [
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Python"
+            ],
+            "joinDate": "2026-03-20",
+            "isPremium": true
+        },
+        {
+            "id": 2,
+            "name": "Michael Chen",
+            "email": "michael.chen@email.com",
+            "age": 32,
+            "gender": "male",
+            "phone": "+1-555-0124",
+            "address": "456 Pine Avenue, San Francisco, CA 94102",
+            "hobbies": [
+                "gaming",
+                "hiking",
+                "cooking"
+            ],
+            "occupation": "Product Manager",
+            "company": "Innovation Labs",
+            "bio": "Tech enthusiast and outdoor adventurer.",
+            "skills": [
+                "Agile",
+                "Scrum",
+                "Product Strategy"
+            ],
+            "joinDate": "2022-08-20",
+            "isPremium": false
+        },
+        {
+            "id": 3,
+            "name": "Sarah Williams",
+            "email": "sarah.williams@email.com",
+            "age": 26,
+            "gender": "female",
+            "phone": "+1-555-0125",
+            "address": "789 Elm Street, Austin, TX 73301",
+            "hobbies": [
+                "painting",
+                "yoga",
+                "travel"
+            ],
+            "occupation": "UX Designer",
+            "company": "Creative Studios",
+            "bio": "Design thinker and creative problem solver.",
+            "skills": [
+                "Figma",
+                "Adobe XD",
+                "User Research"
+            ],
+            "joinDate": "2023-03-10",
+            "isPremium": true
+        },
+        {
+            "id": 4,
+            "name": "David Martinez",
+            "email": "david.martinez@email.com",
+            "age": 35,
+            "gender": "male",
+            "phone": "+1-555-0126",
+            "address": "321 Oak Drive, Chicago, IL 60601",
+            "hobbies": [
+                "basketball",
+                "reading",
+                "coding"
+            ],
+            "occupation": "Full Stack Developer",
+            "company": "Digital Solutions",
+            "bio": "Problem solver and lifelong learner.",
+            "skills": [
+                "Python",
+                "Django",
+                "React",
+                "PostgreSQL"
+            ],
+            "joinDate": "2021-11-15",
+            "isPremium": false
+        },
+        {
+            "id": 5,
+            "name": "Lisa Anderson",
+            "email": "lisa.anderson@email.com",
+            "age": 29,
+            "gender": "female",
+            "phone": "+1-555-0127",
+            "address": "654 Maple Lane, Boston, MA 02101",
+            "hobbies": [
+                "photography",
+                "hiking",
+                "baking"
+            ],
+            "occupation": "Marketing Manager",
+            "company": "Growth Agency",
+            "bio": "Creative marketer with data-driven approach.",
+            "skills": [
+                "SEO",
+                "Content Marketing",
+                "Analytics"
+            ],
+            "joinDate": "2022-06-01",
+            "isPremium": true
+        }
+    ],
+    "total": 5,
+    "page": 1,
+    "totalPages": 1
 }
